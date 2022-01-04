@@ -11,12 +11,13 @@ h1{
     color:crimson;
 }
 #change{
-    color:limegreen;
+    color:lawngreen;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
+    
 .half-width{
     width:50%;
     padding-left:5%;
@@ -38,11 +39,33 @@ section{
 .color-change{
     color:deeppink;
 }
-#top-banner{
+.top-banner{
     background-image:url(top-banner.png);
 }
 .dream-big{
     background-image: url(dream-bg\ -\ Copy.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.color-orange{
+    color:orangered;
+}
+.experience-item{
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+.experience-area{
+    background-image:url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-f-dev{
+    border-left:5px solid blue;
+}
+
+#web-b-dev{
+    border-left:5px solid red;
 }
