@@ -15,6 +15,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 .half-width{
     width:50%;
@@ -31,7 +32,17 @@ section{
     padding: 2px;
     border-radius: 2px 5px;
 }
+.text-decoration{
+    color:crimson;
+}
+.color-change{
+    color:deeppink;
+}
 #top-banner{
-    background-image: url(project/developer-portfolio/top-banner.png);
-
+    background-image:url(top-banner.png);
+}
+.dream-big{
+    background-image: url(dream-bg\ -\ Copy.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
